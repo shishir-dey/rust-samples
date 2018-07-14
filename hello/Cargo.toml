@@ -1,6 +1,0 @@
-[package]
-name = "hello"
-version = "0.1.0"
-authors = ["Shishir Dey <shishirdey241097@gmail.com>"]
-
-[dependencies]
