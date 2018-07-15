@@ -1,0 +1,10 @@
+[package]
+name = "Rust-101"
+version = "0.1.0"
+authors = ["Altarf02 <Altarf02@github.com>"]
+
+[[bin]]
+name = "tuple"
+src = "src/tuple.rs"
+
+[dependencies]
