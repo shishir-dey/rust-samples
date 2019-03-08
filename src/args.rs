@@ -1,9 +1,9 @@
-fn main() {
-    let args = std::env::args();
+use std::env;
 
-    print!("Args = [");
-    for arg in args {
-        print!(" {} ", arg);
+fn main() {
+    for i in env::args() {
+        println!("{}", i);
     }
-    println!("]");
+    let l = [1, 2, 3];
+    println!("l[0] = {}", l[0]);
 }
