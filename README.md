@@ -1,2 +1,2 @@
-# Rust-101
-A repository for practicing the Rust programming language.
+# rust-samples
+A repository for learning about the Rust programming language.
