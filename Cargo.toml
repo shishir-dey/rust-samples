@@ -1,6 +1,166 @@
 [package]
-name = "Rust-101"
+name = "rust-samples"
 version = "0.1.0"
 authors = ["Shishir Dey <shishirdey241097@gmail.com>"]
 
-[dependencies]
+[[bin]]
+name = "args"
+test = false
+bench = false
+path = "src/args/args.rs"
+
+[[bin]]
+name = "array"
+test = false
+bench = false
+path = "src/array/array.rs"
+
+[[bin]]
+name = "boxed"
+test = false
+bench = false
+path = "src/boxed/boxed.rs"
+
+[[bin]]
+name = "call_by_ref"
+test = false
+bench = false
+path = "src/call_by_ref/call_by_ref.rs"
+
+[[bin]]
+name = "clone_drop"
+test = false
+bench = false
+path = "src/clone_drop/clone_drop.rs"
+
+[[bin]]
+name = "closure"
+test = false
+bench = false
+path = "src/closure/closure.rs"
+
+[[bin]]
+name = "const"
+test = false
+bench = false
+path = "src/const/const.rs"
+
+[[bin]]
+name = "custom_type"
+test = false
+bench = false
+path = "src/custom_type/custom_type.rs"
+
+[[bin]]
+name = "datatype"
+test = false
+bench = false
+path = "src/datatype/datatype.rs"
+
+[[bin]]
+name = "derive_debug"
+test = false
+bench = false
+path = "src/derive_debug/derive_debug.rs"
+
+[[bin]]
+name = "destruct"
+test = false
+bench = false
+path = "src/destruct/destruct.rs"
+
+[[bin]]
+name = "enum"
+test = false
+bench = false
+path = "src/enum/enum.rs"
+
+[[bin]]
+name = "fn"
+test = false
+bench = false
+path = "src/fn/fn.rs"
+
+[[bin]]
+name = "for_loop"
+test = false
+bench = false
+path = "src/for_loop/for_loop.rs"
+
+[[bin]]
+name = "function_demo"
+test = false
+bench = false
+path = "src/function_demo/function_demo.rs"
+
+[[bin]]
+name = "generic_function"
+test = false
+bench = false
+path = "src/generic_function/generic_function.rs"
+
+[[bin]]
+name = "generic_struct"
+test = false
+bench = false
+path = "src/generic_struct/generic_struct.rs"
+
+[[bin]]
+name = "gpio"
+test = false
+bench = false
+path = "src/gpio/gpio.rs"
+
+[[bin]]
+name = "hashmap"
+test = false
+bench = false
+path = "src/hashmap/hashmap.rs"
+
+[[bin]]
+name = "heap_alloc"
+test = false
+bench = false
+path = "src/heap_alloc/heap_alloc.rs"
+
+[[bin]]
+name = "hello"
+test = false
+bench = false
+path = "src/hello/hello.rs"
+
+[[bin]]
+name = "if-else"
+test = false
+bench = false
+path = "src/if-else/if-else.rs"
+
+[[bin]]
+name = "impl_enum"
+test = false
+bench = false
+path = "src/impl_enum/impl_enum.rs"
+
+[[bin]]
+name = "impl_struct"
+test = false
+bench = false
+path = "src/impl_struct/impl_struct.rs"
+
+[[bin]]
+name = "iter"
+test = false
+bench = false
+path = "src/iter/iter.rs"
+
+[[bin]]
+name = "vector"
+test = false
+bench = false
+path = "src/vector/vector.rs"
+
+[[bin]]
+name = "while_loop"
+test = false
+bench = false
+path = "src/while_loop/while_loop.rs"

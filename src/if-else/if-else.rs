@@ -10,3 +10,7 @@ fn main() {
         println!("{} is positive", x);
     }
 }
+
+fn test_if_else() {
+    assert_eq!(1, 1);
+}

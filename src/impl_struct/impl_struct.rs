@@ -8,7 +8,7 @@ struct GPIO {
 #[allow(dead_code)]
 #[allow(unused_variables)]
 #[allow(non_snake_case)]
-impl GPIO {&
+impl GPIO {
     fn SetPin(g: GPIO, pin: u8) -> bool {
         true
     }
