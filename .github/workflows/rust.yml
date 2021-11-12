@@ -67,7 +67,6 @@ jobs:
         cargo run --bin string
         cargo run --bin stringed
         cargo run --bin struct
-        cargo run --bin test.py
         cargo run --bin thread
         cargo run --bin tuple
         cargo run --bin vector
