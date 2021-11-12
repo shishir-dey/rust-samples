@@ -1,2 +1,2 @@
 # rust-samples
-A repository for learning about the Rust programming language.
+This repository contains Rust language code snippets. To see the output, see the _Actions_ tab.
