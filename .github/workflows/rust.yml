@@ -59,7 +59,6 @@ jobs:
         cargo run --bin oop
         cargo run --bin panicked
         cargo run --bin parse
-        cargo run --bin pointer
         cargo run --bin pointer_loc
         cargo run --bin review_1
         cargo run --bin self_kw

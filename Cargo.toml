@@ -154,6 +154,139 @@ bench = false
 path = "src/iter/iter.rs"
 
 [[bin]]
+name = "label"
+test = false
+bench = false
+path = "src/label/label.rs"
+
+[[bin]]
+name = "linked_list"
+test = false
+bench = false
+path = "src/linked_list/linked_list.rs"
+
+[[bin]]
+name = "list"
+test = false
+bench = false
+path = "src/list/list.rs"
+
+[[bin]]
+name = "loop"
+test = false
+bench = false
+path = "src/loop/loop.rs"
+
+[[bin]]
+name = "match"
+test = false
+bench = false
+path = "src/match/match.rs"
+
+[[bin]]
+name = "mod"
+test = false
+bench = false
+path = "src/mod/mod.rs"
+
+[[bin]]
+name = "mod2"
+test = false
+bench = false
+path = "src/mod2/mod2.rs"
+
+[[bin]]
+name = "nested_struct"
+test = false
+bench = false
+path = "src/nested_struct/nested_struct.rs"
+
+[[bin]]
+name = "number"
+test = false
+bench = false
+path = "src/number/number.rs"
+
+[[bin]]
+name = "oop"
+test = false
+bench = false
+path = "src/oop/oop.rs"
+
+[[bin]]
+name = "panicked"
+test = false
+bench = false
+path = "src/panicked/panicked.rs"
+
+[[bin]]
+name = "parse"
+test = false
+bench = false
+path = "src/parse/parse.rs"
+
+
+[[bin]]
+name = "pointer_loc"
+test = false
+bench = false
+path = "src/pointer_loc/pointer_loc.rs"
+
+[[bin]]
+name = "review_1"
+test = false
+bench = false
+path = "src/review_1/review_1.rs"
+
+[[bin]]
+name = "self_kw"
+test = false
+bench = false
+path = "src/self_kw/self_kw.rs"
+
+[[bin]]
+name = "slice"
+test = false
+bench = false
+path = "src/slice/slice.rs"
+
+[[bin]]
+name = "some_res"
+test = false
+bench = false
+path = "src/some_res/some_res.rs"
+
+[[bin]]
+name = "string"
+test = false
+bench = false
+path = "src/string/string.rs"
+
+[[bin]]
+name = "stringed"
+test = false
+bench = false
+path = "src/stringed/stringed.rs"
+
+[[bin]]
+name = "struct"
+test = false
+bench = false
+path = "src/struct/struct.rs"
+
+[[bin]]
+name = "thread"
+test = false
+bench = false
+path = "src/thread/thread.rs"
+
+[[bin]]
+name = "tuple"
+test = false
+bench = false
+path = "src/tuple/tuple.rs"
+
+[[bin]]
 name = "vector"
 test = false
 bench = false
