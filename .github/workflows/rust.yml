@@ -20,54 +20,101 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
-    - name: Run apps
-      run: |
-        cargo run --bin args
-        cargo run --bin array
-        cargo run --bin boxed
-        cargo run --bin call_by_ref
-        cargo run --bin clone_drop
-        cargo run --bin closure
-        cargo run --bin const
-        cargo run --bin custom_type
-        cargo run --bin datatype
-        cargo run --bin derive_debug
-        cargo run --bin destruct
-        cargo run --bin enum
-        cargo run --bin fn
-        cargo run --bin for_loop
-        cargo run --bin function_demo
-        cargo run --bin generic_function
-        cargo run --bin generic_struct
-        cargo run --bin gpio
-        cargo run --bin hashmap
-        cargo run --bin heap_alloc
-        cargo run --bin hello
-        cargo run --bin if-else
-        cargo run --bin impl_enum
-        cargo run --bin impl_struct
-        cargo run --bin iter
-        cargo run --bin label
-        cargo run --bin linked_list
-        cargo run --bin list
-        cargo run --bin loop
-        cargo run --bin match
-        cargo run --bin mod
-        cargo run --bin mod2
-        cargo run --bin nested_struct
-        cargo run --bin number
-        cargo run --bin oop
-        cargo run --bin panicked
-        cargo run --bin parse
-        cargo run --bin pointer_loc
-        cargo run --bin review_1
-        cargo run --bin self_kw
-        cargo run --bin slice
-        cargo run --bin some_res
-        cargo run --bin string
-        cargo run --bin stringed
-        cargo run --bin struct
-        cargo run --bin thread
-        cargo run --bin tuple
-        cargo run --bin vector
-        cargo run --bin while_loop
+    - name: Run app args
+      run: cargo run --bin args
+    - name: Run app array
+      run: cargo run --bin array
+    - name: Run app boxed
+      run: cargo run --bin boxed
+    - name: Run app call_by_ref
+      run: cargo run --bin call_by_ref
+    - name: Run app clone_drop
+      run: cargo run --bin clone_drop
+    - name: Run app closure
+      run: cargo run --bin closure
+    - name: Run app const
+      run: cargo run --bin const
+    - name: Run app custom_type
+      run: cargo run --bin custom_type
+    - name: Run app datatype
+      run: cargo run --bin datatype
+    - name: Run app derive_debug
+      run: cargo run --bin derive_debug
+    - name: Run app destruct
+      run: cargo run --bin destruct
+    - name: Run app enum
+      run: cargo run --bin enum
+    - name: Run app fn
+      run: cargo run --bin fn
+    - name: Run app for_loop
+      run: cargo run --bin for_loop
+    - name: Run app function_demo
+      run: cargo run --bin function_demo
+    - name: Run app generic_function
+      run: cargo run --bin generic_function
+    - name: Run app generic_struct
+      run: cargo run --bin generic_struct
+    - name: Run app gpio
+      run: cargo run --bin gpio
+    - name: Run app hashmap
+      run: cargo run --bin hashmap
+    - name: Run app heap_alloc
+      run: cargo run --bin heap_alloc
+    - name: Run app hello
+      run: cargo run --bin hello
+    - name: Run app if-else
+      run: cargo run --bin if-else
+    - name: Run app impl_enum
+      run: cargo run --bin impl_enum
+    - name: Run app impl_struct
+      run: cargo run --bin impl_struct
+    - name: Run app iter
+      run: cargo run --bin iter
+    - name: Run app label
+      run: cargo run --bin label
+    - name: Run app linked_list
+      run: cargo run --bin linked_list
+    - name: Run app list
+      run: cargo run --bin list
+    - name: Run app loop
+      run: cargo run --bin loop
+    - name: Run app match
+      run: cargo run --bin match
+    - name: Run app mod
+      run: cargo run --bin mod
+    - name: Run app mod2
+      run: cargo run --bin mod2
+    - name: Run app nested_struct
+      run:  cargo run --bin nested_struct
+    - name: Run app number
+      run: cargo run --bin number
+    - name: Run app oop
+      run: cargo run --bin oop
+    - name: Run app panicked
+      run: cargo run --bin panicked
+    - name: Run app parse
+      run: cargo run --bin parse
+    - name: Run app pointer_loc
+      run: cargo run --bin pointer_loc
+    - name: Run app review_1
+      run: cargo run --bin review_1
+    - name: Run app self_kw
+      run: cargo run --bin self_kw
+    - name: Run app slice
+      run: cargo run --bin slice
+    - name: Run app some_res
+      run: cargo run --bin some_res
+    - name: Run app string
+      run: cargo run --bin string
+    - name: Run app stringed
+      run: cargo run --bin stringed
+    - name: Run app struct
+      run: cargo run --bin struct
+    - name: Run app thread
+      run: cargo run --bin thread
+    - name: Run app tuple
+      run: cargo run --bin tuple
+    - name: Run app vector
+      run: cargo run --bin vector
+    - name: Run app while_loop
+      run: cargo run --bin while_loop
