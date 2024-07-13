@@ -1,12 +1,12 @@
 #[derive(Debug)]
 enum Error {
-    DIVIDE_BY_ZERO,
-    MISMATCH_TYPES,
+    DivideByZero,
+    MismatchTypes,
 }
 
 fn div(x: f32, y: f32) -> Result<f32, Error> {
     if y == 0.0 {
-        Err(Error::DIVIDE_BY_ZERO)
+        Err(Error::DivideByZero)
     } else {
         Ok(x / y)
     }
@@ -34,6 +34,6 @@ fn main() {
     gift(None);
     gift(Some(1));
     gift(Some(3));
-    let e: Error = Error::MISMATCH_TYPES;
+    let e: Error = Error::MismatchTypes;
     println!("{:?}", e);
 }
