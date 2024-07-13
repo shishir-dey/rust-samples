@@ -64,34 +64,16 @@ bench = false
 path = "src/derive_debug/derive_debug.rs"
 
 [[bin]]
-name = "destruct"
-test = false
-bench = false
-path = "src/destruct/destruct.rs"
-
-[[bin]]
 name = "enum"
 test = false
 bench = false
 path = "src/enum/enum.rs"
 
 [[bin]]
-name = "fn"
-test = false
-bench = false
-path = "src/fn/fn.rs"
-
-[[bin]]
 name = "for_loop"
 test = false
 bench = false
 path = "src/for_loop/for_loop.rs"
-
-[[bin]]
-name = "function_demo"
-test = false
-bench = false
-path = "src/function_demo/function_demo.rs"
 
 [[bin]]
 name = "generic_function"
@@ -104,12 +86,6 @@ name = "generic_struct"
 test = false
 bench = false
 path = "src/generic_struct/generic_struct.rs"
-
-[[bin]]
-name = "gpio"
-test = false
-bench = false
-path = "src/gpio/gpio.rs"
 
 [[bin]]
 name = "hashmap"
@@ -134,18 +110,6 @@ name = "if-else"
 test = false
 bench = false
 path = "src/if-else/if-else.rs"
-
-[[bin]]
-name = "impl_enum"
-test = false
-bench = false
-path = "src/impl_enum/impl_enum.rs"
-
-[[bin]]
-name = "impl_struct"
-test = false
-bench = false
-path = "src/impl_struct/impl_struct.rs"
 
 [[bin]]
 name = "iter"
@@ -190,12 +154,6 @@ bench = false
 path = "src/mod/mod.rs"
 
 [[bin]]
-name = "mod2"
-test = false
-bench = false
-path = "src/mod2/mod2.rs"
-
-[[bin]]
 name = "nested_struct"
 test = false
 bench = false
@@ -233,18 +191,6 @@ bench = false
 path = "src/pointer_loc/pointer_loc.rs"
 
 [[bin]]
-name = "review_1"
-test = false
-bench = false
-path = "src/review_1/review_1.rs"
-
-[[bin]]
-name = "self_kw"
-test = false
-bench = false
-path = "src/self_kw/self_kw.rs"
-
-[[bin]]
 name = "slice"
 test = false
 bench = false
@@ -261,12 +207,6 @@ name = "string"
 test = false
 bench = false
 path = "src/string/string.rs"
-
-[[bin]]
-name = "stringed"
-test = false
-bench = false
-path = "src/stringed/stringed.rs"
 
 [[bin]]
 name = "struct"
