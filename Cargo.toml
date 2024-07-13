@@ -10,6 +10,12 @@ bench = false
 path = "src/args/args.rs"
 
 [[bin]]
+name = "arithmetic"
+test = false
+bench = false
+path = "src/arithmetic/arithmetic.rs"
+
+[[bin]]
 name = "array"
 test = false
 bench = false
