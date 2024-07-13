@@ -18,7 +18,10 @@ trait Living {
 
 impl Living for Human {
     fn breathe(&self) {
-        println!("[{}] (Living)Human::breathe()", self as *const Human as usize);
+        println!(
+            "[{}] (Living)Human::breathe()",
+            self as *const Human as usize
+        );
     }
     fn walk(&self) {
         println!("[{}] (Living)Human::walk()", self as *const Human as usize);
@@ -29,7 +32,7 @@ impl Living for Human {
 }
 
 fn main() {
-    let h1 = Human {name: 1, age: 2};
+    let h1 = Human { name: 1, age: 2 };
     h1.learn();
     h1.breathe();
     h1.walk();

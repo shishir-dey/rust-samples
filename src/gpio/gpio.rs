@@ -5,7 +5,7 @@ pub struct GPIO {
 
 impl GPIO {
     pub fn new() -> GPIO {
-        GPIO {MODER: 0, BSRR: 0}
+        GPIO { MODER: 0, BSRR: 0 }
     }
 
     pub fn get_mode(&self) -> u32 {

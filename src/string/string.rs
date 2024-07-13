@@ -3,7 +3,7 @@ fn main() {
     let mut s2 = "This is another string".to_string();
 
     println!("{}\n{}", s, s2);
-    
+
     s.remove(0);
     s2.push('.');
 

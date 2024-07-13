@@ -5,6 +5,6 @@ struct Point<T> {
 }
 
 fn main() {
-    let p = Point{x: 2, y: 3};
+    let p = Point { x: 2, y: 3 };
     println!("p = {:?}", p);
 }

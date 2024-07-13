@@ -6,10 +6,13 @@ struct Human {
 
 impl Human {
     fn new() -> Self {
-        Human {name: 1, age: 2}
+        Human { name: 1, age: 2 }
     }
     fn ret(&self) {
-        println!("self.name = {}, self.age = {}", &self.name as *const u8 as usize, &self.age as *const u8 as usize);
+        println!(
+            "self.name = {}, self.age = {}",
+            &self.name as *const u8 as usize, &self.age as *const u8 as usize
+        );
     }
 }
 
