@@ -40,22 +40,14 @@ jobs:
       run: cargo run --bin datatype
     - name: Run app derive_debug
       run: cargo run --bin derive_debug
-    - name: Run app destruct
-      run: cargo run --bin destruct
     - name: Run app enum
       run: cargo run --bin enum
-    - name: Run app fn
-      run: cargo run --bin fn
     - name: Run app for_loop
       run: cargo run --bin for_loop
-    - name: Run app function_demo
-      run: cargo run --bin function_demo
     - name: Run app generic_function
       run: cargo run --bin generic_function
     - name: Run app generic_struct
       run: cargo run --bin generic_struct
-    - name: Run app gpio
-      run: cargo run --bin gpio
     - name: Run app hashmap
       run: cargo run --bin hashmap
     - name: Run app heap_alloc
@@ -64,10 +56,6 @@ jobs:
       run: cargo run --bin hello
     - name: Run app if-else
       run: cargo run --bin if-else
-    - name: Run app impl_enum
-      run: cargo run --bin impl_enum
-    - name: Run app impl_struct
-      run: cargo run --bin impl_struct
     - name: Run app iter
       run: cargo run --bin iter
     - name: Run app label
@@ -82,8 +70,6 @@ jobs:
       run: cargo run --bin match
     - name: Run app mod
       run: cargo run --bin mod
-    - name: Run app mod2
-      run: cargo run --bin mod2
     - name: Run app nested_struct
       run:  cargo run --bin nested_struct
     - name: Run app number
@@ -96,18 +82,12 @@ jobs:
       run: cargo run --bin parse
     - name: Run app pointer_loc
       run: cargo run --bin pointer_loc
-    - name: Run app review_1
-      run: cargo run --bin review_1
-    - name: Run app self_kw
-      run: cargo run --bin self_kw
     - name: Run app slice
       run: cargo run --bin slice
     - name: Run app some_res
       run: cargo run --bin some_res
     - name: Run app string
       run: cargo run --bin string
-    - name: Run app stringed
-      run: cargo run --bin stringed
     - name: Run app struct
       run: cargo run --bin struct
     - name: Run app thread
