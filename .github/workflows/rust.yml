@@ -18,10 +18,12 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
     - name: Run app args
       run: cargo run --bin args
+    - name: Run app arithmetic
+      run: cargo run --bin arithmetic
+    - name: Run unit tests for arithmetic
+      run: cargo test --bin arithmetic -- tests --show-output 
     - name: Run app array
       run: cargo run --bin array
     - name: Run app boxed
