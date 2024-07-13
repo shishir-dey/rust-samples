@@ -6,7 +6,7 @@ struct Point {
 
 impl Point {
     fn new() -> Self {
-        Point {x: 0, y: 0}
+        Point { x: 0, y: 0 }
     }
     fn rand(mut self) -> Self {
         self.x = 3;

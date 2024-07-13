@@ -5,7 +5,7 @@ fn inc(n: &mut u8) {
 }
 
 fn main() {
-    let mut a: u8= 5;
+    let mut a: u8 = 5;
     println!("a = {}", a);
 
     inc(&mut a);

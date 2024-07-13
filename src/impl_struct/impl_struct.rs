@@ -15,6 +15,6 @@ impl GPIO {
 }
 
 fn main() {
-    let gpioa = GPIO {MODER: 0, BSRR: 0};
+    let gpioa = GPIO { MODER: 0, BSRR: 0 };
     GPIO::SetPin(gpioa, 1);
 }

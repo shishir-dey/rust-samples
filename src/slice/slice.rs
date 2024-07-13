@@ -10,5 +10,5 @@ fn print_slice(s: &[u8]) {
 fn main() {
     let ar: [u8; 5] = [1, 2, 3, 4, 5];
 
-    print_slice(&ar[0 .. 2]);
+    print_slice(&ar[0..2]);
 }

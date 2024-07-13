@@ -8,7 +8,7 @@ fn main() {
     println!("size_of u64 = {}", mem::size_of::<u64>());
     println!("size_of u128 = {}", mem::size_of::<u128>());
     println!("size_of usize = {}", mem::size_of::<usize>());
-    
+
     println!("----Unsigned Datatypes----");
     println!("size_of i8 = {}", mem::size_of::<i8>());
     println!("size_of i16 = {}", mem::size_of::<i16>());
@@ -20,5 +20,4 @@ fn main() {
     println!("----Others----");
     println!("size_of char = {}", mem::size_of::<char>());
     println!("size_of bool = {}", mem::size_of::<bool>());
-
 }
