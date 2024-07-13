@@ -1,5 +1,3 @@
-use std::mem::*;
-
 pub mod geo {
     pub struct Point {
         pub x: f32,

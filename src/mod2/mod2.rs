@@ -1,10 +1,11 @@
+#[allow(dead_code)]
 #[derive(Debug)]
 struct Point<T> {
     x: T,
     y: T,
 }
 
-impl <T> Point<T> {
+impl<T> Point<T> {
     fn get_point(self) -> Point<T> {
         self
     }
@@ -22,7 +23,7 @@ pub mod arm {
 }
 
 fn main() {
-    let p = Point::<u8> {x: 2, y: 3};
+    let p = Point::<u8> { x: 2, y: 3 };
     println!("{:?}", p.get_point());
     arm::stm32::ppid();
 }
