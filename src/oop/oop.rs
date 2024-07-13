@@ -33,6 +33,10 @@ impl Living for Human {
 
 fn main() {
     let h1 = Human { name: 1, age: 2 };
+    println!(
+        "Created a Human instance with name: {}, age: {}",
+        h1.name, h1.age
+    );
     h1.learn();
     h1.breathe();
     h1.walk();

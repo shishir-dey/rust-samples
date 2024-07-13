@@ -17,4 +17,8 @@ fn main() {
         class: 2,
     };
     println!("s = {:?}", s);
+    println!(
+        "Device ID: {}, Device Model: {}, USB Class: {}",
+        s.d.id, s.d.model, s.class
+    );
 }
