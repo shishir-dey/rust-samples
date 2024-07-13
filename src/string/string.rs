@@ -9,5 +9,3 @@ fn main() {
 
     println!("{}\n{}", s, s2);
 }
-
-/* Refer to https://doc.rust-lang.org/std/string/struct.String.html */
